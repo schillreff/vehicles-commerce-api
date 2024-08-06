@@ -2,9 +2,9 @@
   "name": "vehicles-commerce-api",
   "version": "0.0.1",
   "description": "",
-  "author": "",
+  "author": "Leandro Schillreff",
   "private": true,
-  "license": "UNLICENSED",
+  "license": "MIT",
   "scripts": {
     "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
