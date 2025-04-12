@@ -48,6 +48,8 @@ model RecoverPassword {
   token  String @unique
   User   User   @relation(fields: [userId], references: [id], onDelete: Cascade)
   userId String @unique
+
+  @@map("recover_passwords")
 }
 
 model Announcement {
